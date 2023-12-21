@@ -1,1 +1,1 @@
-# comandos-sql-pratica
+# SQL NA PRÁTICA
