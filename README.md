@@ -1,18 +1,18 @@
 # SQL NA PRÁTICA
 
 -- SELECIONANDO O BANCO DE DADOS A SER USADO
+
 use curso2;
 
 -- CRIANDO UMA TABELA "USERS"
+
 			CREATE TABLE users( 
 				user_id INT NOT NULL AUTO_INCREMENT,
 				first_name VARCHAR(100),
 				last_name VARCHAR(100),
 				sallary INT,
 				dob DATE,
-				PRIMARY KEY (user_id)
-            
-            );
+				PRIMARY KEY (user_id));
             
             
 -- EXCLUINDO TABELA
