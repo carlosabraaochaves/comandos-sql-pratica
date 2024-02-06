@@ -21,13 +21,17 @@ use curso2;
             
 -- INSERINDO DADOS NA TABELA
 
-			INSERT INTO users(first_name,last_name, sallary, dob) value ("Carlos Abraão", "Mendonça Chaves", 500, "1984-08-22");
-            INSERT INTO users(first_name,last_name, sallary, dob)  value ("Ricardo Oliveira", "Santos Chaves", 1000, "1974-07-22");
+			INSERT INTO users(first_name,last_name, sallary, dob) 
+            VALUE ("Carlos Abraão", "Mendonça Chaves", 500, "1984-08-22");
             
-						-- INSERINDO MAIS DE UM REGISTRO AO MESMO TEMPO
+            INSERT INTO users(first_name,last_name, sallary, dob)  
+            VALUE ("Ricardo Oliveira", "Santos Chaves", 1000, "1974-07-22");
+            
+-- INSERINDO MAIS DE UM REGISTRO AO MESMO TEMPO
+                        
              INSERT INTO users(first_name,last_name, sallary, dob)  
-					value ("Alexandro Santos", "Moreira Assis", 1500, "1978-07-12"),
-						  ("Suzane Luana", "Melo Santos", 500, "1979-07-12");
+			 VALUE ("Alexandro Santos", "Moreira Assis", 1500, "1978-07-12"),
+				   ("Suzane Luana", "Melo Santos", 500, "1979-07-12");
             
 -- SELECIONANDO TABELA USERS
 
