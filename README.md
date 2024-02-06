@@ -2,7 +2,7 @@
 
 -- SELECIONANDO O BANCO DE DADOS A SER USADO
 
-use curso2;
+			USE curso2;
 
 -- CRIANDO UMA TABELA "USERS"
 
